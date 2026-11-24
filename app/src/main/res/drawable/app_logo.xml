@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Converted from app_design/assets/logo/app_logo.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp"
+    android:viewportWidth="100" android:viewportHeight="100">
+    <path android:pathData="M24 0H76A24 24 0 0 1 100 24V76A24 24 0 0 1 76 100H24A24 24 0 0 1 0 76V24A24 24 0 0 1 24 0Z" android:fillColor="#151B30" />
+    <path android:pathData="M65 18A29 29 0 1 0 76 58A26 26 0 0 1 65 18" android:fillColor="#B5A4FF" />
+    <path android:pathData="M18 72Q26 64 34 72T50 72T66 72T82 72" android:strokeColor="#A9DCD7" android:strokeWidth="4" android:strokeLineCap="round" />
+</vector>

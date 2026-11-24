@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sleep sessions and event clips stay on this device (privacy onboarding promise). -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="sessions.json" />
+        <exclude domain="file" path="clips/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="clips/" />
+    </device-transfer>
+</data-extraction-rules>

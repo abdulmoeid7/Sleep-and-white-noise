@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sleep sessions and event clips stay on this device (privacy onboarding promise). -->
+<full-backup-content>
+    <exclude domain="file" path="sessions.json" />
+    <exclude domain="file" path="clips/" />
+</full-backup-content>

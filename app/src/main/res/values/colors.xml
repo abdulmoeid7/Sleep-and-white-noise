@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Design system: app_design/design_system/colors.md -->
+    <color name="background">#FF0B1020</color>
+    <color name="surface">#FF151B30</color>
+    <color name="primary">#FFB5A4FF</color>
+</resources>

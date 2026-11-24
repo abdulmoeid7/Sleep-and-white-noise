@@ -1,0 +1,70 @@
+# Navigation
+Splash → onboarding → Home (guest default). Profile → Login → optional account. Bottom tabs: Home dashboard, Sound library, Sleep dashboard, Insights dashboard, Profile
+
+- Splash screen → Continue → Welcome onboarding
+- Welcome onboarding → Next → Sound library onboarding
+- Sound library onboarding → Next → Sleep analysis onboarding
+- Sleep analysis onboarding → Next → Privacy onboarding
+- Privacy onboarding → Continue → Microphone permission
+- Microphone permission → Allow microphone → Notification permission
+- Notification permission → Continue → Personal sleep goal
+- Personal sleep goal → Finish setup → Home dashboard
+- Login → Sign in → Home dashboard
+- Sign up → Create account → Home dashboard
+- Forgot password → Send code → Reset verification
+- Reset verification → Verify code → New password
+- New password → Reset password → Password reset success
+- Password reset success → Back to login → Login
+- Home dashboard → Start sleep tracking → Sleep session setup
+- Search → Search → Search results
+- Search results → Play gentle rain → Full audio player
+- Notifications → Manage reminders → Reminder settings
+- Sound recommendations → Explore library → Sound library
+- Sound library → Open mixer → Sound mixer
+- Category details → Play gentle rain → Full audio player
+- Sound details → Play sound → Full audio player
+- Full audio player → Set sleep timer → Sleep timer
+- Sound mixer → Save mix → Save custom mix
+- Add sound to mixer → Add selected sound → Sound mixer
+- Save custom mix → Save mix → My mixes
+- My mixes → Create mix → Sound mixer
+- Favorites → Explore sounds → Sound library
+- Sleep timer → Start timer → Full audio player
+- Filter and sorting → Apply filters → Sound library
+- Mini-player state → Open player → Full audio player
+- Sleep dashboard → Start sleep tracking → Sleep session setup
+- Sleep session setup → Continue → Microphone test
+- Wake-up alarm → Save alarm → Sleep session setup
+- Microphone test → Continue → Phone placement guide
+- Phone placement guide → Start session → Active sleep tracking
+- Active sleep tracking → End session → End session confirmation
+- Tracking paused → Resume tracking → Active sleep tracking
+- End session confirmation → End and save → Analyzing session
+- Analyzing session → View when ready → Morning sleep summary
+- Morning sleep summary → View full report → Daily sleep report
+- Insights dashboard → View history → Sleep history
+- Daily sleep report → View sound events → Sound event timeline
+- Weekly report → View monthly report → Monthly report
+- Monthly report → View history → Sleep history
+- Sleep history → Open latest session → Daily sleep report
+- Sound event timeline → Open event → Recorded event details
+- Recorded event details → Back to timeline → Sound event timeline
+- Sleep goals → Save goals → Insights dashboard
+- Profile → Open settings → Settings
+- Edit profile → Save changes → Profile
+- Settings → Back to profile → Profile
+- Audio settings → Save preferences → Settings
+- Sleep tracking settings → Save preferences → Settings
+- Reminder settings → Save reminders → Settings
+- Appearance → Apply appearance → Settings
+- Privacy and data → Manage deletion → Delete data confirmation
+- Help and FAQ → Back to settings → Settings
+- Premium subscription → View purchase options → Profile
+- Empty state → Start a session → Sleep dashboard
+- Loading state → Cancel → Home dashboard
+- Error state → Try again → Sound library
+- Permission denied → Open Android settings → Sleep session setup
+- Success state → View my mixes → My mixes
+- Delete data confirmation → Delete data → Privacy and data
+
+Back returns to previous destination; root tabs preserve state. Permission requests use Android system UI; denial allows audio-only use.
